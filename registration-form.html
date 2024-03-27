@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isikhalisezwe Registration</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Isikhalisezwe Registration Form</h2>
+        <form>
+            <div class="form-group">
+                <label for="student-id">Student ID:</label>
+                <input type="text" id="student-id" name="student-id" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="form-group">
+                <label for="grade">Grade Applying For:</label>
+                <select id="grade" name="grade" required>
+                    <option value="">Select Grade</option>
+                    <option value="9">9th Grade</option>
+                    <option value="10">10th Grade</option>
+                    <option value="11">11th Grade</option>
+                    <option value="12">12th Grade</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="highest-grade">Highest Grade Passed:</label>
+                <input type="text" id="highest-grade" name="highest-grade" required>
+            </div>
+            <div class="form-group">
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" required>
+            </div>
+        <div class="form-group">
+            <label for="Surname">Surname</label>
+            <input type="text" id="Surname" name="Surname" required>
+        </div>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="province">Province located to:</label>
+                <select id="province" name="province" required> 
+                    <option value="">Select Province</option>
+                    <option value="1">Kwazulu-Natal(KZN)</option>
+                    <option value="2">Gauteng</option>
+                    <option value="3">Limpopo</option>
+                    <option value="4">Easten Cape</option>
+                    <option value="5">North West</option>
+                    <option value="6">Mpumalang</option>
+                    <option value="7">Northern Cape</option>
+                    <option value="8">Free State</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
